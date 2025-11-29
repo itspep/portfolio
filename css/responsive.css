@@ -17,6 +17,10 @@
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+    .hero{
+        margin-top: 25rem;
+    }
     .nav-links {
         display: none;
     }
@@ -73,7 +77,11 @@
 
 /* Small Mobile Styles */
 @media (max-width: 480px) {
+    .hero{
+        margin-top: 25rem;
+    }
     .hero-title {
+      
         font-size: 2rem;
     }
     

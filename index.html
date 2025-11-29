@@ -206,13 +206,13 @@
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#" class="social-link">
+                        <a href="https://github.com/itspep" class="social-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://www.linkedin.com/feed/" class="social-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" class="social-link">
+                        <a href="https://x.com/home" class="social-link">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </div>
@@ -250,12 +250,14 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Tahiru. All rights reserved.</p>
+                <p>&copy; <span id="year"></span> Tahiru. All rights reserved.</p>
                 <p class="elvish-text">A star shall shine upon the hour of our meeting</p>
             </div>
         </div>
     </footer>
-
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>
